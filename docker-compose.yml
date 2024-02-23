@@ -4,7 +4,7 @@ services:
     container_name: scribr
     build: .
     ports:
-      - "3000:3000"
+      - "3500:3000"
     environment:
       - NODE_ENV=production
 
